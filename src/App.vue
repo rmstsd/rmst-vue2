@@ -7,7 +7,7 @@
       :data-component="Item"
       :estimate-size="30"
       item-class="list-item-fixed"
-      :keeps="30"
+      :keeps="18"
     >
       <!-- <div slot="header" class="header-m">header</div>
       <div slot="footer" class="loading-spinner-m">Loading ...</div> -->
@@ -17,7 +17,7 @@
 
 <script setup>
   import { ref } from 'vue'
-  import VirtualList from 'vue-virtual-scroll-list'
+  import VirtualList from './components/VirtualList'
 
   import Item from './Item.vue'
 
