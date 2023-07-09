@@ -7,7 +7,7 @@
       :data-component="Item"
       :estimate-size="30"
       item-class="list-item-fixed"
-      :keeps="60"
+      :keeps="30"
     >
       <!-- <div slot="header" class="header-m">header</div>
       <div slot="footer" class="loading-spinner-m">Loading ...</div> -->
@@ -56,10 +56,11 @@
 
   .list .list-item-fixed {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     padding: 0 1em;
     height: 30px;
     border-bottom: 1px solid;
     border-color: lightgray;
+    overflow: hidden;
   }
 </style>
